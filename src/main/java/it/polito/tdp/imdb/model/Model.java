@@ -89,6 +89,8 @@ public class Model {
 				this.attoriCondivisiBest = attoriCondivisi;
 			}
 		}
+		else 
+			return;
 		
 		Director precedente = parziale.get(parziale.size()-1);
 		for(Director d : Graphs.neighborListOf(this.grafo, precedente)) {
